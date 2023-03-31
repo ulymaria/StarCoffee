@@ -1,0 +1,61 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+    padding: 15px;
+}
+
+
+.logo-menu{
+    display:flex
+}
+
+.logo-menu > img{
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:black;
+}
+
+.botao-branco{
+border: 1px solid black;
+border-radius: 20px;
+padding: 5px 10px;
+font-size:  10px;
+}
+
+.botao-branco:hover{
+    background-color: lightgray;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.botao-preto {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
